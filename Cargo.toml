@@ -1,0 +1,23 @@
+[package]
+name = "rp2040-monotonic"
+version = "1.0.0"
+authors = [
+  "The Real-Time Interrupt-driven Concurrency developers",
+  "Emil Fresk <emil.fresk@gmail.com>",
+]
+categories = ["concurrency", "embedded", "no-std"]
+description = "RTIC Monotonic implementation based on RP2040's Timer peripheral"
+documentation = "https://docs.rs/rp2040-monotonic"
+repository = "https://github.com/rtic-rs/rp2040-monotonic"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[lib]
+name = "rp2040_monotonic"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rtic-monotonic = "1.0.0"
+fugit = "0.3.0"
+rp2040-pac = "0.2.0"
