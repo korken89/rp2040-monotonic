@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Support for new PAC (0.5)
+
 ## [v1.2.0] - 2022-11-22
 
 ### Added
