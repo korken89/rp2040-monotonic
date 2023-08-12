@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v1.3.0] - 2023-08-12
+
 ### Added
 
 - Support for new PAC (0.5)
@@ -35,7 +37,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 Initial release
 
-[Unreleased]: https://github.com/rtic-rs/systick-monotonic/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/rtic-rs/systick-monotonic/compare/v1.3.0...HEAD
+[v1.3.0]: https://github.com/rtic-rs/systick-monotonic/compare/v1.2.0...v1.3.0
 [v1.2.0]: https://github.com/rtic-rs/systick-monotonic/compare/v1.1.0...v1.2.0
 [v1.1.0]: https://github.com/rtic-rs/systick-monotonic/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/rtic-rs/systick-monotonic/compare/v1.0.0...v1.0.1
