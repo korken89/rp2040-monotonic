@@ -64,7 +64,7 @@ impl Monotonic for Rp2040Monotonic {
     }
 
     fn clear_compare_flag(&mut self) {
-        self.timer.intr.modify(|_, w| w.alarm_0().set_bit());
+        self.timer.intr.modify(|_, w| w.alarm_0().bit(true));
     }
 
     fn zero() -> Self::Instant {
